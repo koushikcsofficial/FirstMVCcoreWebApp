@@ -17,7 +17,8 @@ namespace MyWebApp2
         public void ConfigureServices(IServiceCollection services)
         {
             //adding mvc service to the asp.net project
-            services.AddControllersWithViews();
+            //services.AddControllersWithViews();
+            services.AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

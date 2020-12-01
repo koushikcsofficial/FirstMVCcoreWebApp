@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstMVCcoreWebApp", "FirstMVCcoreWebApp\FirstMVCcoreWebApp.csproj", "{9EB04708-BC0A-4CDF-A820-F073E4C160D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstMVCcoreWebApp", "FirstMVCcoreWebApp\FirstMVCcoreWebApp.csproj", "{9EB04708-BC0A-4CDF-A820-F073E4C160D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstConsoleApp", "FirstConsoleApp\FirstConsoleApp.csproj", "{05C8D4AF-A217-4C93-BF91-B66E8EAB1495}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstConsoleApp", "FirstConsoleApp\FirstConsoleApp.csproj", "{05C8D4AF-A217-4C93-BF91-B66E8EAB1495}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWebApp2", "MyWebApp2\MyWebApp2.csproj", "{EF88A349-8CB9-492C-9228-FCFDC6343458}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyWebApp2", "MyWebApp2\MyWebApp2.csproj", "{EF88A349-8CB9-492C-9228-FCFDC6343458}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoReactWebApp", "DemoReactWebApp\DemoReactWebApp.csproj", "{D6B240AD-DF94-4529-A8AF-F8F5F76392E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{EF88A349-8CB9-492C-9228-FCFDC6343458}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF88A349-8CB9-492C-9228-FCFDC6343458}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF88A349-8CB9-492C-9228-FCFDC6343458}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6B240AD-DF94-4529-A8AF-F8F5F76392E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6B240AD-DF94-4529-A8AF-F8F5F76392E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6B240AD-DF94-4529-A8AF-F8F5F76392E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6B240AD-DF94-4529-A8AF-F8F5F76392E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

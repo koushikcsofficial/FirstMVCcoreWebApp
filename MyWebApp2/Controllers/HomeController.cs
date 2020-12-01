@@ -8,11 +8,16 @@ namespace MyWebApp2.Controllers
 {
     public class HomeController : Controller
     {
-        public string Index()
+        public ViewResult Index()
         {
-            return "Hello from Koushik";
+            var obj = new { name = "Koushik" };
+            return View(obj);
         }
 
+        //public string Index()
+        //{
+        //    return "Hi from Koushik";
+        //}
 
     }
 }

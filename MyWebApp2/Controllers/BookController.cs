@@ -16,10 +16,11 @@ namespace MyWebApp2.Controllers
         {
             _bookrepo = new BookRepository();
         }
-        public List<Book> GetAllBooks()
+        public ViewResult GetAllBooks()
         {
             //return "All books list will be shown here";
-            return _bookrepo.GetAllBooks();
+            var result =  _bookrepo.GetAllBooks();
+            return View();
         }
 
         public Book GetBook(int id)
